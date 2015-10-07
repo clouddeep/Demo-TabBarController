@@ -14,6 +14,7 @@
 		63E36B471BC4019800F7FE34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E36B461BC4019800F7FE34 /* Images.xcassets */; };
 		63E36B4A1BC4019800F7FE34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E36B481BC4019800F7FE34 /* LaunchScreen.xib */; };
 		63E36B561BC4019800F7FE34 /* TabBarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E36B551BC4019800F7FE34 /* TabBarViewTests.m */; };
+		63EC20FF1BC4A04500493EBC /* SCTTabManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EC20FE1BC4A04500493EBC /* SCTTabManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		63E36B4F1BC4019800F7FE34 /* TabBarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E36B541BC4019800F7FE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E36B551BC4019800F7FE34 /* TabBarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewTests.m; sourceTree = "<group>"; };
+		63EC20FD1BC4A04500493EBC /* SCTTabManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTTabManager.h; sourceTree = "<group>"; };
+		63EC20FE1BC4A04500493EBC /* SCTTabManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTTabManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +84,10 @@
 		63E36B381BC4019800F7FE34 /* TabBarView */ = {
 			isa = PBXGroup;
 			children = (
-				63E36B3D1BC4019800F7FE34 /* AppDelegate.h */,
-				63E36B3E1BC4019800F7FE34 /* AppDelegate.m */,
 				63E36B401BC4019800F7FE34 /* ViewController.h */,
 				63E36B411BC4019800F7FE34 /* ViewController.m */,
-				63E36B431BC4019800F7FE34 /* Main.storyboard */,
-				63E36B461BC4019800F7FE34 /* Images.xcassets */,
-				63E36B481BC4019800F7FE34 /* LaunchScreen.xib */,
+				63EC20FD1BC4A04500493EBC /* SCTTabManager.h */,
+				63EC20FE1BC4A04500493EBC /* SCTTabManager.m */,
 				63E36B391BC4019800F7FE34 /* Supporting Files */,
 			);
 			path = TabBarView;
@@ -96,6 +96,11 @@
 		63E36B391BC4019800F7FE34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63E36B3D1BC4019800F7FE34 /* AppDelegate.h */,
+				63E36B3E1BC4019800F7FE34 /* AppDelegate.m */,
+				63E36B431BC4019800F7FE34 /* Main.storyboard */,
+				63E36B461BC4019800F7FE34 /* Images.xcassets */,
+				63E36B481BC4019800F7FE34 /* LaunchScreen.xib */,
 				63E36B3A1BC4019800F7FE34 /* Info.plist */,
 				63E36B3B1BC4019800F7FE34 /* main.m */,
 			);
@@ -222,6 +227,7 @@
 				63E36B421BC4019800F7FE34 /* ViewController.m in Sources */,
 				63E36B3F1BC4019800F7FE34 /* AppDelegate.m in Sources */,
 				63E36B3C1BC4019800F7FE34 /* main.m in Sources */,
+				63EC20FF1BC4A04500493EBC /* SCTTabManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				63E36B5B1BC4019800F7FE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63E36B5C1BC4019800F7FE34 /* Build configuration list for PBXNativeTarget "TabBarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				63E36B5E1BC4019800F7FE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
