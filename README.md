@@ -5,6 +5,7 @@
 1. You want to switch several ViewControllers directly.
 2. You don't want to implement complex delegate methods by yourself.
 3. You don't want to hold a TabBar.
+4. You are unfamiliar with UITabBarControllerDelegate and you don't want to use it.
 
 ## How to use
 
@@ -37,3 +38,4 @@ You should provide as least one of them if you don't hide the TabBar.
 ## Other Note
 
 If you HIDE UITabBar, you can call *selectTabViewIndex:* to switch the ViewController.
+If you want to use UITabBarControllerDelegate, you can change the initialization method of SCTTabManager to set the delegate of the tabBarController and implement delegate methods in your ViewController.m.
