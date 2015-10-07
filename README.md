@@ -1,4 +1,4 @@
-# Demo-TabBarController
+# SCTTabManager
 
 ## Who is suitable for this
 
